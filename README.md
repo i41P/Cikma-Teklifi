@@ -1,3 +1,3 @@
-# Cikma-Teklifi
+# Tıkla :)
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/i41P/Cikma-Teklifi)
+[💌](https://stackblitz.com/~/github.com/i41P/Cikma-Teklifi)
