@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bir Yeni Mesaj</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="backgroundMusic" loop>
+        <source src="https://www.soundjay.com/misc/sounds/romantic-piano.mp3" type="audio/mpeg">
+        <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Bir Yeni Mesaj! 💌</h1>
+            <p class="subtitle">Acaba kalp'e tıklar mısınız hanımefendi? :)</p>
+        </div>
+
+        <div class="envelope-container" id="envelopeContainer">
+            <div class="envelope" id="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body">
+                    <div class="heart" id="heart">
+                        <div class="heart-shape"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="letter" id="letter">
+                <div class="letter-header">
+                    <h2>Şeyy</h2>
+                    <div class="dotted-line"></div>
+                </div>
+                <div class="letter-content" id="letterContent">
+                    <p class="message-text">Bunu sana söylemek için doğru zamanı bekledim... Çünkü seninle her konuştuğumda, duygularımı başkasında değil senin kalbinde hissetmeni istiyorum. Eğer sen de istersen... Yaşadığımız onca kötü şeyleri unutup benimle bir adım daha atmaya var mısın? Benimle çıkar mısın güzeller güzelim 🫠🤍</p>
+                </div>
+                <div class="choice-buttons" id="choiceButtons">
+                    <button class="choice-btn yes-btn" id="yesBtn">Evet</button>
+                    <button class="choice-btn no-btn" id="noBtn">Hayır</button>
+                </div>
+            </div>
+
+            <div class="second-chance-letter" id="secondChanceLetter">
+                <div class="letter-header">
+                    <h2>2. Şansa Ne Dersin?</h2>
+                    <div class="dotted-line"></div>
+                </div>
+                <div class="letter-content">
+                    <p class="message-text">Biliyorum biraz çocukça oldu ancak... 2. şansa ne dersin? Ne yaşarsak yaşayalım yaşadığımız tüm o kötü olayları birlikte atlamamızı çok isterim.. </p>
+                </div>
+                <div class="choice-buttons">
+                    <button class="choice-btn yes-btn" id="finalYesBtn">Evet</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="final-screen" id="finalScreen">
+            <div class="final-message">
+                <h2>Seni Çok Seviyorum <3 </h2>
+                <div class="romantic-text">
+                    <p>Seni abartmadan anlatacak olursam</p>
+                    <<p>Hayatıma aniden giren ve tanıştığımız ilk günden beri senin zihninde, kalbinde, duygularında ufak ufak'da olsa yer edinmeye çalıştım..</p>
+                    <p>Ve şimdi bir kez daha  görüyorum ki iyi ki birrlikte çabalamışız..</p>
+                    <p>Seninle birlikte ileri  de çocuklarımıza anlatacağımız saçma sapan hikayeleri dinlemek istiyorum ben, milletin dedikodusundan, neler yaptığından daha çok seni dinlemek istiyorum her anında</p>
+                    <p>Evet.. belki abartılı gelebilir, ancak benim sana karşı hislerim gün geçtikçe arttı. Ve bunun en büyük sebebi de senin onca kilometre'ye rağmen aldırış etmeden beni her anında ggörmmeye  çalışman, beni en saçma, en müsait olmadığım an'daa bile sevmen</p>
+                    <p>İyi ki hayatımdasın, seni gerçekten çok seviyorum. Umarım beniimle bberaber bu  yolda yürümek istersin :)<p></p>
+                </div>
+            </div>
+            <div class="animated-heart">
+                <svg class="heart-svg" viewBox="0 0 100 100" width="200" height="200">
+                    <path class="heart-path" d="M50,85 C50,85 15,55 15,35 C15,25 25,15 35,15 C40,15 45,17 50,22 C55,17 60,15 65,15 C75,15 85,25 85,35 C85,55 50,85 50,85 Z" 
+                          fill="none" 
+                          stroke="#e91e63" 
+             <<<>             stroke-width="2"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
